@@ -22,18 +22,16 @@ export class Login {
     try{
       if(this.email.trim() === ""){
         throw new Error("Nao pode deixar o campo do email vazio");
-        return;
       }
-      if(!this.email.includes("@") && !this.email.includes(".com")){
+      if(!this.email.includes("@") || !this.email.includes(".")){
         throw new Error ("Tipo formataçao de e-mail incorreta");
-        return;
       }
-      if (this.senha === ""){
+      if (this.senha.trim() === ""){
         throw new Error ("Nao pode deixar o campo da senha vazio");
-        return;
+
       }
       else{
-        this.router.navigate(['inicio']);
+        this.router.navigate(['home']);
       }
     }catch(error:any){
       alert(`${error.message}`);
