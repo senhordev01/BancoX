@@ -1,0 +1,54 @@
+#Inicio{
+    display: inline;
+}
+
+.Nav-Bar{
+    background-color: #0056b3;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+}
+#BancoX-Img{
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    width: 500px;
+}
+#Login{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    right: 130px;
+    top: 13px;
+    border: 0;
+}
+#Cadastro{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    right: 0px;
+    top: 13px;
+    border: 0;
+}
+
+
+#Login:hover,
+#Cadastro:hover{
+    border-bottom: 3.5px solid white;
+}
+.Informacao-BancoX{
+    background-color: rgb(21, 80, 21);
+    position: static;
+    right: 0;
+}
